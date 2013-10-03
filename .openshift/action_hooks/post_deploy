@@ -12,8 +12,8 @@ export SAMPLE_NAME_URL=http://www.magentocommerce.com/downloads/assets/1.6.1.0/$
 MAGENTO_ADMIN_USERNAME="admin"
 MAGENTO_ADMIN_PASSWORD="OpenShiftAdmin123"
 
-echo "Removing data directory..."
-rm -rf ${OPENSHIFT_DATA_DIR}*
+#echo "Removing data directory..."
+#rm -rf ${OPENSHIFT_DATA_DIR}*
 
 if [ ! -f ${OPENSHIFT_DATA_DIR}${SAMPLE_NAME}.tar.gz ];
 then
